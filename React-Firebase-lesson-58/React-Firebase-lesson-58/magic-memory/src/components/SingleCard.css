@@ -10,12 +10,12 @@
 
 /* front of card - the picture */
 .card .front {
-    transform: rotateY(90dg);
+    transform: rotateY(90deg);
     transition: all ease-in 0.2s;
     position: absolute;
 }
 .flipped .front {
-    transform: rotateY(0dg);
+    transform: rotateY(0deg);
     transition-delay: 0.2s;
 }
 
